@@ -21,12 +21,12 @@ This project is collection of implementation of **Agent-to-User Interface (A2UI)
 The ADK discovery logic requires a specific package structure to function correctly:
 
 ```text
-smart_concierge/
-├── my_agent/
+with-adk-a2a-a2ui-agui/
+├── <your>_agent/
 │   ├── __init__.py      # Required for Python package discovery
 │   └── agent.py         # Agent instructions, Tools, and A2UI logic
 ├── .env                 # API Keys (GOOGLE_API_KEY)
-├── main.py              # A2A Server, CORS settings, and Middleware
+├── app_main.py          # A2A Server, CORS settings, and Middleware
 └── pyproject.toml       # Managed by uv
 ```
 
